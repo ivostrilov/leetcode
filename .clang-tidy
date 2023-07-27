@@ -1,0 +1,23 @@
+Checks: '
+        google-*,
+        cppcoreguidelines-*,
+        modernize-*,
+        performance-*,
+        readability-*,
+        clang-analyzer-*,
+        -modernize-use-equals-default,
+        -readability-redundant-access-specifiers,
+        -cppcoreguidelines-owning-memory,
+        -cppcoreguidelines-prefer-member-initializer,
+        -performance-unnecessary-value-param,
+        -cppcoreguidelines-pro-type-vararg,
+        -cppcoreguidelines-pro-bounds-pointer-arithmetic,
+        -cppcoreguidelines-pro-type-reinterpret-cast
+        '
+
+#WarningsAsErrors: '*'
+FormatStyle: 'file'
+
+# Exclude auto-generated files by Qt
+AnalyzeTemporaryDtors: false
+
