@@ -50,12 +50,16 @@ set(
 
 set(
   leetcode_src
+  SourceFiles/leetcode/integer_to_roman.cpp
+  SourceFiles/leetcode/integer_to_roman.h
   SourceFiles/leetcode/valid_parentheses.cpp
   SourceFiles/leetcode/valid_parentheses.h
 )
 
 set(
   test_src
+  SourceFiles/test/leetcode/integer_to_roman_test.cpp
+  SourceFiles/test/leetcode/integer_to_roman_test.h
   SourceFiles/test/leetcode/valid_parentheses_test.cpp
   SourceFiles/test/leetcode/valid_parentheses_test.h
 )
