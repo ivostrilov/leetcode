@@ -52,6 +52,8 @@ set(
   leetcode_src
   SourceFiles/leetcode/integer_to_roman.cpp
   SourceFiles/leetcode/integer_to_roman.h
+  SourceFiles/leetcode/palindrome_number.cpp
+  SourceFiles/leetcode/palindrome_number.h
   SourceFiles/leetcode/valid_parentheses.cpp
   SourceFiles/leetcode/valid_parentheses.h
   SourceFiles/leetcode/zigzag_conversion.cpp
@@ -62,6 +64,8 @@ set(
   test_src
   SourceFiles/test/leetcode/integer_to_roman_test.cpp
   SourceFiles/test/leetcode/integer_to_roman_test.h
+  SourceFiles/test/leetcode/palindrome_number_test.cpp
+  SourceFiles/test/leetcode/palindrome_number_test.h
   SourceFiles/test/leetcode/valid_parentheses_test.cpp
   SourceFiles/test/leetcode/valid_parentheses_test.h
   SourceFiles/test/leetcode/zigzag_conversion_test.cpp
