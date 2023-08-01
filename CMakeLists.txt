@@ -54,6 +54,8 @@ set(
   SourceFiles/leetcode/integer_to_roman.h
   SourceFiles/leetcode/valid_parentheses.cpp
   SourceFiles/leetcode/valid_parentheses.h
+  SourceFiles/leetcode/zigzag_conversion.cpp
+  SourceFiles/leetcode/zigzag_conversion.h
 )
 
 set(
@@ -62,6 +64,8 @@ set(
   SourceFiles/test/leetcode/integer_to_roman_test.h
   SourceFiles/test/leetcode/valid_parentheses_test.cpp
   SourceFiles/test/leetcode/valid_parentheses_test.h
+  SourceFiles/test/leetcode/zigzag_conversion_test.cpp
+  SourceFiles/test/leetcode/zigzag_conversion_test.h
 )
 
 #-------------------------------------------------------------------------------
