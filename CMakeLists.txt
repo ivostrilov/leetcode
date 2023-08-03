@@ -52,6 +52,8 @@ set(
   leetcode_src
   SourceFiles/leetcode/integer_to_roman.cpp
   SourceFiles/leetcode/integer_to_roman.h
+  SourceFiles/leetcode/letter_combinations_of_a_phone_number.cpp
+  SourceFiles/leetcode/letter_combinations_of_a_phone_number.h
   SourceFiles/leetcode/palindrome_number.cpp
   SourceFiles/leetcode/palindrome_number.h
   SourceFiles/leetcode/sum_closest.cpp
@@ -66,6 +68,8 @@ set(
   test_src
   SourceFiles/test/leetcode/integer_to_roman_test.cpp
   SourceFiles/test/leetcode/integer_to_roman_test.h
+  SourceFiles/test/leetcode/letter_combinations_of_a_phone_number_test.cpp
+  SourceFiles/test/leetcode/letter_combinations_of_a_phone_number_test.h
   SourceFiles/test/leetcode/palindrome_number_test.cpp
   SourceFiles/test/leetcode/palindrome_number_test.h
   SourceFiles/test/leetcode/sum_closest_test.cpp

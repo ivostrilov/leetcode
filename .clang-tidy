@@ -12,7 +12,9 @@ Checks: '
         -performance-unnecessary-value-param,
         -cppcoreguidelines-pro-type-vararg,
         -cppcoreguidelines-pro-bounds-pointer-arithmetic,
-        -cppcoreguidelines-pro-type-reinterpret-cast
+        -cppcoreguidelines-pro-type-reinterpret-cast,
+        #Some solution is recursion func
+        -misc-no-recursion
         '
 
 #WarningsAsErrors: '*'
