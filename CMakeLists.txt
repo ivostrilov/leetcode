@@ -56,6 +56,8 @@ set(
   SourceFiles/leetcode/letter_combinations_of_a_phone_number.h
   SourceFiles/leetcode/palindrome_number.cpp
   SourceFiles/leetcode/palindrome_number.h
+  SourceFiles/leetcode/remove_nth_node_from_end_of_list.cpp
+  SourceFiles/leetcode/remove_nth_node_from_end_of_list.h
   SourceFiles/leetcode/sum_4.cpp
   SourceFiles/leetcode/sum_4.h
   SourceFiles/leetcode/sum_closest.cpp
@@ -74,6 +76,8 @@ set(
   SourceFiles/test/leetcode/letter_combinations_of_a_phone_number_test.h
   SourceFiles/test/leetcode/palindrome_number_test.cpp
   SourceFiles/test/leetcode/palindrome_number_test.h
+  SourceFiles/test/leetcode/remove_nth_node_from_end_of_list_test.cpp
+  SourceFiles/test/leetcode/remove_nth_node_from_end_of_list_test.h
   SourceFiles/test/leetcode/sum_4_test.cpp
   SourceFiles/test/leetcode/sum_4_test.h
   SourceFiles/test/leetcode/sum_closest_test.cpp
