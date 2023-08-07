@@ -56,6 +56,8 @@ set(
   SourceFiles/leetcode/letter_combinations_of_a_phone_number.h
   SourceFiles/leetcode/palindrome_number.cpp
   SourceFiles/leetcode/palindrome_number.h
+  SourceFiles/leetcode/sum_4.cpp
+  SourceFiles/leetcode/sum_4.h
   SourceFiles/leetcode/sum_closest.cpp
   SourceFiles/leetcode/sum_closest.h
   SourceFiles/leetcode/valid_parentheses.cpp
@@ -72,6 +74,8 @@ set(
   SourceFiles/test/leetcode/letter_combinations_of_a_phone_number_test.h
   SourceFiles/test/leetcode/palindrome_number_test.cpp
   SourceFiles/test/leetcode/palindrome_number_test.h
+  SourceFiles/test/leetcode/sum_4_test.cpp
+  SourceFiles/test/leetcode/sum_4_test.h
   SourceFiles/test/leetcode/sum_closest_test.cpp
   SourceFiles/test/leetcode/sum_closest_test.h
   SourceFiles/test/leetcode/valid_parentheses_test.cpp
