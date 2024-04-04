@@ -9,12 +9,15 @@ Checks: '
         -readability-redundant-access-specifiers,
         -cppcoreguidelines-owning-memory,
         -cppcoreguidelines-prefer-member-initializer,
+        -cppcoreguidelines-pro-bounds-array-to-pointer-decay,
         -performance-unnecessary-value-param,
         -cppcoreguidelines-pro-type-vararg,
         -cppcoreguidelines-pro-bounds-pointer-arithmetic,
         -cppcoreguidelines-pro-type-reinterpret-cast,
         #Some solution is recursion func
-        -misc-no-recursion
+        -misc-no-recursion,
+        -readability-identifier-length,
+        -readability-simplify-boolean-expr
         '
 
 #WarningsAsErrors: '*'

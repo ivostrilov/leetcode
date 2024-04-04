@@ -1,6 +1,7 @@
 #include "leetcode/sum_closest.h"
 
 #include <algorithm>
+#include <cassert>
 #include <cstdlib>
 
 namespace LeetCode {

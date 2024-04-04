@@ -7,35 +7,6 @@ project(leet-code)
 # Dependencies
 #-------------------------------------------------------------------------------
 
-if (
-  NOT DEFINED ENV{GTEST_DIR}
-)
-  message(
-    FATAL_ERROR
-    "
-      Some variables are empty:
-      Variable 'ENV{GTEST_DIR}': '$ENV{GTEST_LIB_DIR}'
-    "
-  )
-else ()
-  message(
-    STATUS
-    "
-      Using GTest from: '$ENV{GTEST_DIR}'
-    "
-  )
-  set(
-    third_party_libs_paths
-    $ENV{GTEST_DIR}
-  )
-endif ()
-
-set(
-  CMAKE_PREFIX_PATH
-  ${CMAKE_PREFIX_PATH}
-  ${third_party_libs_paths}
-)
-
 find_package(GTest REQUIRED)
 
 set(

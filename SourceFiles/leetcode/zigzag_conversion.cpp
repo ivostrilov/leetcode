@@ -1,5 +1,6 @@
 #include "leetcode/zigzag_conversion.h"
 
+#include <cassert>
 #include <iostream>
 #include <vector>
 
