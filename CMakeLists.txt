@@ -25,6 +25,8 @@ set(
   SourceFiles/leetcode/integer_to_roman.h
   SourceFiles/leetcode/letter_combinations_of_a_phone_number.cpp
   SourceFiles/leetcode/letter_combinations_of_a_phone_number.h
+  SourceFiles/leetcode/merge_two_sorted_lists.h
+  SourceFiles/leetcode/merge_two_sorted_lists.cpp
   SourceFiles/leetcode/palindrome_number.cpp
   SourceFiles/leetcode/palindrome_number.h
   SourceFiles/leetcode/remove_nth_node_from_end_of_list.cpp
@@ -45,6 +47,8 @@ set(
   SourceFiles/test/leetcode/integer_to_roman_test.h
   SourceFiles/test/leetcode/letter_combinations_of_a_phone_number_test.cpp
   SourceFiles/test/leetcode/letter_combinations_of_a_phone_number_test.h
+  SourceFiles/test/leetcode/merge_two_sorted_lists_test.h
+  SourceFiles/test/leetcode/merge_two_sorted_lists_test.cpp
   SourceFiles/test/leetcode/palindrome_number_test.cpp
   SourceFiles/test/leetcode/palindrome_number_test.h
   SourceFiles/test/leetcode/remove_nth_node_from_end_of_list_test.cpp
