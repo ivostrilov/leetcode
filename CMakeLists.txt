@@ -20,6 +20,11 @@ set(
 #-------------------------------------------------------------------------------
 
 set(
+  alpgorithm_src
+  SourceFiles/algorithm/binary_search.h
+)
+
+set(
   leetcode_src
   SourceFiles/leetcode/integer_to_roman.cpp
   SourceFiles/leetcode/integer_to_roman.h
@@ -43,6 +48,8 @@ set(
 
 set(
   test_src
+  SourceFiles/test/algorithm/binary_search_test.cpp
+  SourceFiles/test/algorithm/binary_search_test.h
   SourceFiles/test/leetcode/integer_to_roman_test.cpp
   SourceFiles/test/leetcode/integer_to_roman_test.h
   SourceFiles/test/leetcode/letter_combinations_of_a_phone_number_test.cpp
@@ -71,6 +78,7 @@ set(target leet-code-tests)
 
 add_executable(
   ${target}
+  ${alpgorithm_src}
   ${leetcode_src}
   ${test_src}
   SourceFiles/main.cpp
