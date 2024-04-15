@@ -26,6 +26,8 @@ set(
 
 set(
   leetcode_src
+  SourceFiles/leetcode/generate_parentheses.cpp
+  SourceFiles/leetcode/generate_parentheses.h
   SourceFiles/leetcode/integer_to_roman.cpp
   SourceFiles/leetcode/integer_to_roman.h
   SourceFiles/leetcode/letter_combinations_of_a_phone_number.cpp
@@ -50,6 +52,8 @@ set(
   test_src
   SourceFiles/test/algorithm/binary_search_test.cpp
   SourceFiles/test/algorithm/binary_search_test.h
+  SourceFiles/test/leetcode/generate_parentheses_test.cpp
+  SourceFiles/test/leetcode/generate_parentheses_test.h
   SourceFiles/test/leetcode/integer_to_roman_test.cpp
   SourceFiles/test/leetcode/integer_to_roman_test.h
   SourceFiles/test/leetcode/letter_combinations_of_a_phone_number_test.cpp
