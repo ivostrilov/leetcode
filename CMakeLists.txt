@@ -36,6 +36,8 @@ set(
   SourceFiles/leetcode/merge_two_sorted_lists.cpp
   SourceFiles/leetcode/palindrome_number.cpp
   SourceFiles/leetcode/palindrome_number.h
+  SourceFiles/leetcode/remove_duplicates_from_sorted_array.cpp
+  SourceFiles/leetcode/remove_duplicates_from_sorted_array.h
   SourceFiles/leetcode/remove_nth_node_from_end_of_list.cpp
   SourceFiles/leetcode/remove_nth_node_from_end_of_list.h
   SourceFiles/leetcode/sum_4.cpp
@@ -62,6 +64,8 @@ set(
   SourceFiles/test/leetcode/merge_two_sorted_lists_test.cpp
   SourceFiles/test/leetcode/palindrome_number_test.cpp
   SourceFiles/test/leetcode/palindrome_number_test.h
+  SourceFiles/test/leetcode/remove_duplicates_from_sorted_array_test.cpp
+  SourceFiles/test/leetcode/remove_duplicates_from_sorted_array_test.h
   SourceFiles/test/leetcode/remove_nth_node_from_end_of_list_test.cpp
   SourceFiles/test/leetcode/remove_nth_node_from_end_of_list_test.h
   SourceFiles/test/leetcode/sum_4_test.cpp
